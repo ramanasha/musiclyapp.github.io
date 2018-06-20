@@ -15,7 +15,7 @@ music.controller('musicController', function($scope, $rootScope, $location, musi
       file: 'Kathadi-Pole.mp3'
     },
     {
-      title: 'Nonaithen Vandhai',
+      title: 'Naithen Vandhai',
       artist: 'K. S. Chithra, Anuradha Sriram',
       album: 'Far Away',
       genre: 'Electro',
