@@ -6,6 +6,24 @@ Licensed under the MIT license
 music.controller('musicController', function($scope, $rootScope, $location, musicControl) {
   $scope.titles = [
     {
+      title: 'Parrthteepan kanavu',
+      artist: 'Saindhavi',
+      album: 'A/B',
+      genre: 'Rock',
+      cover: 'a-b.jpg',
+      titleLength: '3:39',
+      file: 'eannathavamsaitanai.mp3'
+    },
+    {
+      title: 'Nithen Vandhai',
+      artist: 'K. S. Chithra, Anuradha Sriram',
+      album: 'Far Away',
+      genre: 'Electro',
+      cover: 'far-away.jpg',
+      titleLength: '3:03',
+      file: 'Malligaiye-Malligaiye.mp3'
+    },
+    {
       title: ' Maayavi',
       artist: 'PUSHPAVANAM KUPPUSAMI & KALPANA',
       album: 'DEVI SHRI PRASAD',
@@ -14,15 +32,7 @@ music.controller('musicController', function($scope, $rootScope, $location, musi
       titleLength: '4:28',
       file: 'Kathadi-Pole.mp3'
     },
-    {
-      title: 'Naithen Vandhai',
-      artist: 'K. S. Chithra, Anuradha Sriram',
-      album: 'Far Away',
-      genre: 'Electro',
-      cover: 'far-away.jpg',
-      titleLength: '3:03',
-      file: 'Malligaiye-Malligaiye.mp3'
-    },
+    
     {
       title: 'Gentleman',
       artist: ' S. P. Balasubrahmanyam, Janaki',
@@ -40,16 +50,7 @@ music.controller('musicController', function($scope, $rootScope, $location, musi
       cover: 'a-b.jpg',
       titleLength: '3:54',
       file: 'Vallinam.mp3'
-    },
-    {
-      title: 'Gentleman',
-      artist: 'Kaleo',
-      album: 'A/B',
-      genre: 'Rock',
-      cover: 'a-b.jpg',
-      titleLength: '3:39',
-      file: 'Ottagathai.mp3'
-    }
+    }    
   ];
   $scope.musicFlags = musicControl.flags;
   $scope.playMusic = musicControl.playMusic;
